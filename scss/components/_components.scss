@@ -1,0 +1,13 @@
+@use 'logo';
+@use 'buttons';
+@use '../abstracts/variables' as*;
+
+.navigation-link {
+    color: $additional-color;
+    text-decoration: none;
+    line-height: 26px;
+
+    &:active {
+        color: $secondary-color;
+    }
+}

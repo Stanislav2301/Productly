@@ -1,0 +1,13 @@
+@use '../abstracts/placeholders';
+@use '../abstracts/variables' as*;
+
+.btn_group {
+    @extend %flex-row-sb;
+    width: 252px;
+}
+
+.navigation__header {
+    @extend %flex-row-sb;
+    align-items: center;
+    width: 352px;
+}

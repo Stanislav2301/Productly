@@ -1,0 +1,66 @@
+@use '../abstracts/variables' as*;
+@use '../abstracts/placeholders';
+
+.footer {
+    width: 100%;
+    border-top:1px solid rgba(188, 208, 229, 0.496913);
+    padding: 70px 0;
+    margin-top: 100px;
+}
+
+.footer-container {
+    @extend %flex-row-sb;
+    width: $content-width;
+    margin: 0 auto;
+    
+    &__navigation-wrapper {
+        width: 135px;
+        text-align: left;
+    }
+
+    &__title {
+        font-family: 'Gotham Pro';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+
+        &--form {
+            width: 280px;
+        }
+    }
+
+    &__navigation-list {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        width: 340px;
+    }
+
+    &__input {
+        width: 340px;
+        height: 50px;
+        border: 1px solid #BCD0E5;
+        border-radius: 4px;
+        padding-left: 10px;
+        box-sizing: border-box;
+
+        &::placeholder {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #BCD0E5;
+        }
+    }
+}
+

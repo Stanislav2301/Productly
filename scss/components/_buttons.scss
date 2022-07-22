@@ -1,0 +1,28 @@
+@use '../abstracts/variables' as*;
+
+.btn {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: $secondary-color;
+    border: none;
+    font-family: inherit;
+    width: 110px;
+    padding: 13px 22px;
+
+&-sign-in {
+    color: $primary-color;
+    background-color: transparent;
+    border: 1px solid #BCD0E5;
+}
+
+&-large {
+    min-width: 180px;
+    font-family: $additional-font-family;
+    font-weight: 700;
+    line-height: 24px;
+}
+}
+

@@ -1,0 +1,9 @@
+@use '../abstracts/placeholders';
+
+.logo {
+@extend %flex-row-sb; 
+align-items: center;
+width: 16,67%;
+height: max-content;
+gap: 10px;
+}
