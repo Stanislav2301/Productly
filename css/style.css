@@ -736,7 +736,7 @@ body {
   border: none;
   font-family: inherit;
   width: 110px;
-  padding: 13px 22px;
+  padding: 13px 0;
 }
 .btn-sign-in {
   color: #2F281E;
